@@ -8,7 +8,7 @@
 | 2      | [array insert shift](./array-insert-shift/array-insert-shift.md)    |
 | 3      | [array-binary-search](./array-binary-search/array-binary-search.md) |
 | 4      | [linked-list](./linked-list/linked-list.md)                         |
-| 5      | [inheritance](./inheritance/inheritance.md)                         |
+| 5      |                                                                     |
 | 6      |                                                                     |
 | 7      |                                                                     |
 | 8      |                                                                     |
