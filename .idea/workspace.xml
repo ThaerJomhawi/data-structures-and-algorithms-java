@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="939ebf56-ffec-4920-a0a8-1df25caa5fae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/array-reverse/array-reverse.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array-reverse/array-reverse.png" afterDir="false" />
+    <list default="true" id="41a17f2f-c12d-4233-98db-de827bd95ca5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/inheritance/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/inheritance.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/lib/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/inheritance/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/inheritance/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/inheritance/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/test/java/inheritance/LibraryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1zNNvequ2NU5xJRABlG82bDYhzW" />
+  <component name="ProjectId" id="1zdsaMxoTGrYxVOTRZPQG7wWg9B" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,11 +46,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="939ebf56-ffec-4920-a0a8-1df25caa5fae" name="Changes" comment="" />
-      <created>1633984821470</created>
+      <changelist id="41a17f2f-c12d-4233-98db-de827bd95ca5" name="Changes" comment="" />
+      <created>1634489365350</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1633984821470</updated>
+      <updated>1634489365350</updated>
     </task>
     <servers />
   </component>
