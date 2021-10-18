@@ -26,5 +26,10 @@ public class App {
 
 
 
+        linkedList.insertAfter(4,11);
+        linkedList.insertBefore(1,15);
+
+        System.out.println( linkedList.toString());
+
     }
 }
