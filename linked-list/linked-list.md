@@ -33,3 +33,19 @@ because the string depends on the Linked List length
 | 2 | `linkedListName.insert(value)` |this method will add new value to the linked list tree|
 |3| `linkedList.include(value)`|this method will return `true` only if the linkedList contain the input value otherwise will return `false`|
 |4| `linkedList.toString()`| this method will return formatted String showing the LinkedList value|
+
+######
+
+##  Add Node At Last :
+![Add Node At Last](CC6-1.png)
+### Approach & Efficiency
+* loop, time : O(n) scape : O(2n)
+
+## Add Node Before specific node:
+![Add Node At Last](CC6-2.png)
+### Approach & Efficiency
+* loop, time : O(n) scape : O(2n)
+## Add Node After specific node:
+![Add Node At Last](CC6-3.png)
+### Approach & Efficiency
+* loop, time : O(n) scape : O(2n)
