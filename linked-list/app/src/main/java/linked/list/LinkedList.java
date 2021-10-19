@@ -83,4 +83,32 @@ public class LinkedList<T> {
             }
         }
     }
+
+    public String kthFromEnd(int myValue) {
+
+        if (head == null) return "Exception";
+
+        Node cur = head;
+        int count = 0;
+        while (cur.next != null) {
+            cur = cur.next;
+            count++;
+        }
+
+        if (myValue > count || myValue < 0) {
+            return "Exception";
+        } else {
+            cur = head;
+            for (int i = 0; i <= count-myValue; i++) {
+                if (i == count-myValue) {
+                    return "{"+cur.val+"}";
+                }
+                cur = cur.next;
+            }
+        }
+        return "Exception";
+    }
+
+
+    
 }
