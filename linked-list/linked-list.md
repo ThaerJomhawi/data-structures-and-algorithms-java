@@ -49,3 +49,9 @@ because the string depends on the Linked List length
 ![Add Node At Last](CC6-3.png)
 ### Approach & Efficiency
 * loop, time : O(n) scape : O(2n)
+
+## Return the node Value at kth (the entered value )
+![Add Node At Last](CC7.png)
+
+### Approach & Efficiency
+* loop, time : O(n) scape : O(1)
