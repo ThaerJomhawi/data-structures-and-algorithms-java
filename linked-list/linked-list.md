@@ -55,3 +55,9 @@ because the string depends on the Linked List length
 
 ### Approach & Efficiency
 * loop, time : O(n) scape : O(1)
+
+## Zip two linked lists
+![Zip two linked lists](CC8.png)
+
+### Approach & Efficiency
+* loop, time : O(n) scape : O(1)
