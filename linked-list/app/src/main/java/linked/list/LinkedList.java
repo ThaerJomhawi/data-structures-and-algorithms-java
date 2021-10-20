@@ -110,5 +110,12 @@ public class LinkedList<T> {
     }
 
 
+    public Node zipLists(LinkedList firstList, LinkedList secondList) {
+
+
+        return newZippedList.head;
+    }
+
+
     
 }
