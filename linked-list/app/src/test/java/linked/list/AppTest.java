@@ -51,4 +51,22 @@ class AppTest {
 
 
     }
+
+    @Test void zippedList () {
+        LinkedList testFirstList = new LinkedList();
+        testFirstList.append(1);
+        testFirstList.append(3);
+        testFirstList.append(5);
+        LinkedList testSecondList = new LinkedList();
+        testSecondList.append(2);
+        testSecondList.append(4);
+        testSecondList.append(6);
+
+        LinkedList newZipList = new LinkedList();
+        newZipList.head = testFirstList.zipLists(testFirstList,testSecondList);
+        String result = "{ 1 } -> { 2 } -> { 3 } -> { 4 } -> { 5 } -> { 6 } -> NULL";
+
+        assertEquals( result , newZipList.toString());
+    }
+
 }
