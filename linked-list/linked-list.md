@@ -60,4 +60,4 @@ because the string depends on the Linked List length
 ![Zip two linked lists](CC8.png)
 
 ### Approach & Efficiency
-* loop, time : O(n) scape : O(1)
+* loop, time : O(n) scape : O(2n)

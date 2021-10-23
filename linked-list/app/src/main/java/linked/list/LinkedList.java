@@ -112,8 +112,29 @@ public class LinkedList<T> {
 
     public Node zipLists(LinkedList firstList, LinkedList secondList) {
 
+        if (firstList.head == null && secondList.head == null) return null;
+        if (firstList.head == null) return secondList.head;
+        if (secondList.head == null) return firstList.head;
 
-        return newZippedList.head;
+        LinkedList newZipList = new LinkedList();
+        newZipList.head = firstList.head;
+
+        Node cur = firstList.head;
+        firstList.head = firstList.head.next;
+
+        while (cur != null && (secondList.head != null || firstList.head != null)) {
+            if (secondList.head != null) {
+                cur.next = secondList.head;
+                secondList.head = secondList.head.next;
+                cur = cur.next;
+            }
+            if (firstList.head != null) {
+                cur.next = firstList.head;
+                firstList.head = firstList.head.next;
+                cur = cur.next;
+            }
+        }
+        return newZipList.head;
     }
 
 

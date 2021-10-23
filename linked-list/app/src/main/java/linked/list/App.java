@@ -12,6 +12,23 @@ public class App {
         System.out.println(new App().getGreeting());
 
 
+        LinkedList firstList = new LinkedList();
+        firstList.append(1);
+        firstList.append(3);
+        firstList.append(5);
+        LinkedList secondList = new LinkedList();
+        secondList.append(2);
+        secondList.append(4);
+        secondList.append(6);
+
+
+        LinkedList newZipList = new LinkedList();
+        newZipList.head = firstList.zipLists(firstList,secondList);
+        System.out.println("this is the final zipped list:  ");
+        System.out.println(newZipList);
+
+
+        System.out.println("this is previous work form code challenges :");
         LinkedList<Integer> linkedList = new LinkedList<Integer>();
         linkedList.insert(1);
         linkedList.insert(4);
