@@ -34,7 +34,19 @@ public class Library {
         System.out.println(queue.dequeue());
         System.out.println(queue.peek());
 
+        System.out.println("the Pseudo code: ");
 
+        PseudoQueue test = new PseudoQueue();
+        test.enqueue(9);
+        test.enqueue(8);
+        test.enqueue(7);
+        test.enqueue(6);
+        test.enqueue(5);
+        test.dequeue();
+        test.enqueue(12);
+        test.dequeue();
+        test.dequeue();
+        System.out.println(test.stack1.toString());
 
 
 
