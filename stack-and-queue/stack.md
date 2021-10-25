@@ -1,11 +1,4 @@
 # Stacks and Queues
-<!-- Short summary or background information -->
-### Stack
-
-
-### Queue
-
-
 
 ## Challenge
 
@@ -44,4 +37,35 @@ Create a Queue class that has a front property. It creates an empty Queue when i
 
 3. peek(): Returns Value of the node located at the top of the queue. Should raise exception when called on empty queue.
 
-3. is empty(): Returns Boolean indicating whether or not the queue is empty.
+4. is empty(): Returns Boolean indicating whether the queue is empty.
+
+
+
+
+## Code Challenge 11:
+
+# Challenge Summary
+
+Create pseudo class that use stack method, which enqueue will add to rear and remove form front
+
+## Whiteboard Process
+
+![link](CC11.png)
+
+## Approach & Efficiency
+
+enqueue
+
+Space : O(1)
+Time : O(1)
+
+dequeue
+
+Space : O(n)
+Time : O(n)
+
+## Solution
+
+
+
+
