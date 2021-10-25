@@ -25,6 +25,7 @@ public class Stack <T> {
         return false;
     }
 
+
     public Object pop () throws Exception{
         if(empty()){
             throw new Exception("Is empty") ;
@@ -58,6 +59,7 @@ public class Stack <T> {
         str = str + "NUll";
         return str;
     }
+
 
 
 }

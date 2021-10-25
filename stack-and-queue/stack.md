@@ -66,7 +66,7 @@ Time : O(n)
 
 ## Solution:
 
-`public class PseudoQueue<T> {
+    public class PseudoQueue<T> {
 
     public Stack<T> stack1 = new Stack<T>();
     public Stack<T> stack2 = new Stack<>();
@@ -93,7 +93,38 @@ Time : O(n)
         }
         return valueToReturn;
     }
-}`
+    }
+
+
+
+## Code Challenge 12:
+
+## Challenge Animal Shelter
+
+Create a class called AnimalShelter which holds only dogs and cats, using a first-in, first-out approach.
+
+`enqueue()` : animal can be either a dog or a cat object., using a first-in, first-out approach.
+
+`dequeue()` : Extracts a either a dog or a cat, based on preference, using a first-in, first-out approach.
+If pref is not "dog" or "cat" then return null.
+
+**Whiteboard Process**
+
+![Animal-shelter](CC12.png)
+
+**Approach & Efficiency**
+
+`enqueue()` :
+
+Space: O(1);
+
+Time : O(1);
+
+`dequeue()` :
+
+Space: O(1);
+
+Time : O(1);
 
 
 

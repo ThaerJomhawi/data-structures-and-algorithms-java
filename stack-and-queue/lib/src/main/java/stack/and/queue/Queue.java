@@ -70,6 +70,20 @@ class Queue<T> {
         return false;
     }
 
+    public String show(){
+        String str="";
+        if(head==null){
+            System.out.println("Stack is Empty");
+        }else {
+            Node<T> node=head;
+            while (node!=null){
+
+                str+="<-{"+node.value+"}";
+                node=node.next;
+            }
+        }
+        return "Head"+str+"<-Tail";
+    }
 
 
 }
