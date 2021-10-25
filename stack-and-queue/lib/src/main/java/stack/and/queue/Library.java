@@ -48,9 +48,20 @@ public class Library {
         test.dequeue();
         System.out.println(test.stack1.toString());
 
+        System.out.println("the animal shelter code: ");
+
+        AnimalShelter animalTest = new AnimalShelter();
+        System.out.println(animalTest);
+        animalTest.enqueue(new Cats("Tom"));
+        animalTest.enqueue(new  Cats("Flash"));
+        animalTest.enqueue(new Dogs("Rex"));;
+        animalTest.enqueue(new Dogs("Togo"));
+        animalTest.dequeue("cat");
+        animalTest.dequeue("dog");
 
 
-
+        System.out.println(animalTest.cats.toString());
+        System.out.println(animalTest.dogs.toString());
 
 
 
