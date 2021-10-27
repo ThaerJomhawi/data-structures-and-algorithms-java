@@ -128,4 +128,38 @@ Time : O(1);
 
 
 
+## Code Challange 13 :
+
+
+# Balanced Brackets
+
+Write a function called validate brackets that accept string and return boolean that representing whether or not the brackets in the string are balanced
+
+## Whiteboard Process
+
+![brackets](CC13.png)
+
+## Approach & Efficiency
+
+Space O(n)
+Time O(n)
+
+## Solution
+
+
+```
+
+```
+
+
+
+```
+Input<= ({[()]})
+Output => Trure
+
+Input<=({({[})})
+Output=> False
+```
+
+
 
