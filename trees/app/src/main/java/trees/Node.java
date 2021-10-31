@@ -1,17 +1,10 @@
 package trees;
+public class Node {
+    int value;
+    Node leftChild=null;
+    Node rightChild=null;
 
-
-public class Node<T> {
-
-    public T value;
-    public Node leftChild;
-    public Node rightChild;
-
-    public Node(T value) {
-        this.value = value;
-    }
-
-    public Node(T value, Node leftChild, Node rightChild) {
+    public Node(int value) {
         this.value = value;
         this.leftChild = leftChild;
         this.rightChild = rightChild;
