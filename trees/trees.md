@@ -47,3 +47,19 @@ Space : O(n).
 Time : O(n).
 
 Space : O(n).
+
+
+# tree-max
+
+# Challenge Summary
+
+Write a function called maximumValue Find the maximum value stored in the tree.
+
+## Whiteboard Process
+
+![max-tree](CC16.png)
+
+## Approach & Efficiency
+
+time : O(n)
+scape : O(n)
