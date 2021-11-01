@@ -58,6 +58,9 @@ class LibraryTest {
 
 
 
+
+
+
     }
 
 
@@ -113,4 +116,44 @@ class LibraryTest {
 
 
     }
+
+
+    @Test void animalShelter() throws Exception {
+
+        AnimalShelter animalTest = new AnimalShelter();
+
+        // Edge case "object is empty"
+        assertNull(animalTest.toString());
+
+        // Add cats in order "first in first out"
+        animalTest.enqueue(new Cats("Tom"));
+        animalTest.enqueue(new Cats("flash"));
+
+        assertEquals( "Front = Cat :Tom -> Cat :flash -> Null",animalTest.cats.toString());
+
+        // Add Dogs in order "first in first out"
+        animalTest.enqueue(new Dogs("Rex"));
+        animalTest.enqueue(new Dogs("Togo"));
+        assertEquals( "Front = Dog :Rex -> Dog :Togo -> Null",animalTest.dogs.toString());
+
+        // Add to both list
+        assertEquals( "{Dog List :Front = Dog :Rex -> Dog :Togo -> Null} --- {Cat List :Front = Dog :Rex -> Dog :Togo -> Null}" ,animalTest.toString());
+
+
+        // dequeue from list in order "first in first out"
+        animalTest.dequeue("cat");
+        animalTest.dequeue("dog");
+        assertEquals( "Front = Dog :Togo -> Null",animalTest.dogs.toString());
+        assertEquals( "Front = Cat :flash -> Null",animalTest.cats.toString());
+
+        // Return: either a dog or a cat, based on preference.
+        assertEquals("Dog :Togo" , animalTest.dequeue("dog").toString());
+        assertEquals("Cat :flash" , animalTest.dequeue("cat").toString());
+
+        // If pref is not "dog" or "cat" then return "null".
+        assertNull(animalTest.dequeue("none"));
+    }
+
+
+
 }
