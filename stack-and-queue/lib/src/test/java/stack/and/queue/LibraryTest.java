@@ -118,6 +118,7 @@ class LibraryTest {
     }
 
 
+
     @Test void animalShelter() throws Exception {
 
         AnimalShelter animalTest = new AnimalShelter();
@@ -153,6 +154,7 @@ class LibraryTest {
         // If pref is not "dog" or "cat" then return "null".
         assertNull(animalTest.dequeue("none"));
     }
+
 
 
 

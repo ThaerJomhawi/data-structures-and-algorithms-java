@@ -16,57 +16,95 @@ public class Library {
         stack.push("a");
         stack.push("b");
         stack.push("c");
-        System.out.println(stack.toString());
-        System.out.println(stack.empty());
-        System.out.println(stack.peek());
-        stack.pop();
-        System.out.println(stack.peek());
+//        System.out.println(stack.toString());
+//        System.out.println(stack.empty());
+//        System.out.println(stack.peek());
+//        stack.pop();
+//        System.out.println(stack.peek());
+//
+//
+//        Queue queue = new Queue();
+//        System.out.println(queue.empty());
+//        queue.enqueue("a");
+//        queue.enqueue("b");
+//        queue.enqueue("c");
+//        System.out.println(queue.empty());
+//        System.out.println(queue.toString());
+//        System.out.println(queue.peek());
+//        System.out.println(queue.dequeue());
+//        System.out.println(queue.peek());
+//
+//        System.out.println("the Pseudo code: ");
+//
+//        PseudoQueue test = new PseudoQueue();
+//        test.enqueue(9);
+//        test.enqueue(8);
+//        test.enqueue(7);
+//        test.enqueue(6);
+//        test.enqueue(5);
+//        test.dequeue();
+//        test.enqueue(12);
+//        test.dequeue();
+//        test.dequeue();
+//        System.out.println(test.stack1.toString());
+//
+//        System.out.println("the animal shelter code: ");
+//
+//        AnimalShelter animalTest = new AnimalShelter();
+//        System.out.println(animalTest);
+//        animalTest.enqueue(new Cats("Tom"));
+//        animalTest.enqueue(new  Cats("Flash"));
+//        animalTest.enqueue(new Dogs("Rex"));;
+//        animalTest.enqueue(new Dogs("Togo"));
+//        animalTest.dequeue("cat");
+//        animalTest.dequeue("dog");
+//
+//
+//        System.out.println(animalTest.cats.toString());
+//        System.out.println(animalTest.dogs.toString());
 
 
-        Queue queue = new Queue();
-        System.out.println(queue.empty());
-        queue.enqueue("a");
-        queue.enqueue("b");
-        queue.enqueue("c");
-        System.out.println(queue.empty());
-        System.out.println(queue.toString());
-        System.out.println(queue.peek());
-        System.out.println(queue.dequeue());
-        System.out.println(queue.peek());
-
-        System.out.println("the Pseudo code: ");
-
-        PseudoQueue test = new PseudoQueue();
-        test.enqueue(9);
-        test.enqueue(8);
-        test.enqueue(7);
-        test.enqueue(6);
-        test.enqueue(5);
-        test.dequeue();
-        test.enqueue(12);
-        test.dequeue();
-        test.dequeue();
-        System.out.println(test.stack1.toString());
-
-        System.out.println("the animal shelter code: ");
-
-        AnimalShelter animalTest = new AnimalShelter();
-        System.out.println(animalTest);
-        animalTest.enqueue(new Cats("Tom"));
-        animalTest.enqueue(new  Cats("Flash"));
-        animalTest.enqueue(new Dogs("Rex"));;
-        animalTest.enqueue(new Dogs("Togo"));
-        animalTest.dequeue("cat");
-        animalTest.dequeue("dog");
-
-
-        System.out.println(animalTest.cats.toString());
-        System.out.println(animalTest.dogs.toString());
-
-
+        System.out.println( "True , if the result is --> " + brackets("[[[fe]]]"));
+        System.out.println( "True , if the result is --> " + brackets("(({{   }}))"));
+        System.out.println( "False , if the result is --> " + brackets("{()"));
+        System.out.println( "False , if the result is --> " + brackets("[({}]"));
+        System.out.println( "False , if the result is --> " + brackets("String )"));
+        System.out.println( "True , if the result is --> " + brackets(""));
+        System.out.println( "True , if the result is --> " + brackets("f"));
+        System.out.println( "False , if the result is --> " + brackets("f((}}"));
 
 
     }
 
+    public static boolean brackets(String bracketsString) throws Exception {
+        if (bracketsString.isEmpty()) return true;
+
+        Stack<String> checkStack = new Stack<>();
+        String[] arrToCheck = bracketsString.split("");
+
+        for (String value: arrToCheck) {
+            if ((value.equals("}") || value.equals("]") || value.equals(")")) && checkStack.empty()) {
+                return false;
+            }
+            if (value.equals("{") || value.equals("[") || value.equals("(")) {
+                checkStack.push(value);
+            } else if (value.equals("}")) {
+                if (checkStack.top.value.equals("{")) checkStack.pop();
+                else return false;
+            } else if (value.equals(")")) {
+                if (checkStack.top.value.equals("(")) checkStack.pop();
+                else return false;
+            } else if (value.equals("]")) {
+                if (checkStack.top.value.equals("[")) checkStack.pop();
+                else return false;
+            }
+        }
+        return checkStack.empty();
+    }
 
 }
+
+
+
+
+
