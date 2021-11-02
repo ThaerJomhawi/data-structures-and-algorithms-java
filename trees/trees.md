@@ -63,3 +63,20 @@ Write a function called maximumValue Find the maximum value stored in the tree.
 
 time : O(n)
 scape : O(n)
+
+
+## Code Challenge 17 
+
+# Challenge Summary breadth-first
+
+Write a function called breadth first
+Return: list of all values in the tree, in the order they were encountered Traverse the input tree using a Breadth-first approach.
+
+## Whiteboard Process
+
+![firt](CC17.png)
+
+## Approach & Efficiency
+
+time : O(n)
+scape : O(W)

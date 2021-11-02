@@ -9,7 +9,7 @@
 | 3      | [array-binary-search](./array-binary-search/array-binary-search.md) |
 | 4      | [linked-list](./linked-list/linked-list.md)                         |
 | 5      | [stack-and-queue](./stack-and-queue/stack.md)                       |
-| 6      |                                                                     |
+| 6      |      [trees](./trees/trees.md)                                                                 |
 | 7      |                                                                     |
 | 8      |                                                                     |
 | 9      |                                                                     |
