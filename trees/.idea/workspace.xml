@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb4b38e5-6ae8-4342-8f81-cb4f62294060" name="Changes" comment="" />
+    <list default="true" id="cb4b38e5-6ae8-4342-8f81-cb4f62294060" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CC18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trees.md" beforeDir="false" afterPath="$PROJECT_DIR$/trees.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
