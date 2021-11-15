@@ -10,6 +10,6 @@
 | 4      | [linked-list](./linked-list/linked-list.md)                         |
 | 5      | [stack-and-queue](./stack-and-queue/stack.md)                       |
 | 6      |      [trees](./trees/trees.md)                                                                 |
-| 7      |                                                                     |
+| 7      |       [sort](./sort/sort.md)                                                                  |
 | 8      |                                                                     |
 | 9      |                                                                     |
