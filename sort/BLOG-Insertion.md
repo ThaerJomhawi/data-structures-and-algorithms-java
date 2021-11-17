@@ -72,7 +72,7 @@ temp=15;
 
 will compare the 15 with 42, when it's less, will assign it equal to 42 and minus 1 from j to become 2, then compare again 15 is less than 23, so will assign the value of arr[j+1] to be equal 23, then compare again 15 is less than 16, so will assign the value of arr[j+1] to be equal 16. then compare again 15 is grater than 8 so will break the loop and assign the value of arr[j+1] to be equal the temp which is 15.
 
-![BLOG](blog.png)
+![BLOG](./pic/blog-insertion.png)
 
 After this iteration, i will increment to 6, forcing it to break out of the outer for loop and leaving our array now sorted.
 
