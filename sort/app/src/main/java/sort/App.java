@@ -8,8 +8,39 @@ import java.util.Arrays;
 public class App {
 
     public static void main(String[] args) {
-        int[]  arr = {8,4,23,42,16,15};
-        System.out.println(Arrays.toString(insertionSort(arr)));
+        int[] arr = {8, 4, 23, 42, 16, 15};
+//        System.out.println(Arrays.toString(insertionSort(arr)));
+//        System.out.println(Arrays.toString(mergeSort(arr)));
+        System.out.println(Arrays.toString(quickSort(arr,0, arr.length-1 )));
+    }
+
+    public static int[] quickSort(int[] arr, int left, int right) {
+        if (left < right) {
+            int position = partition(arr,  left,  right);
+            quickSort(arr , left , position - 1 );
+            quickSort(arr , position + 1 , right );
+        }
+        return arr;
+    }
+
+    public static int partition(int[] arr, int left, int right) {
+        int pivot = arr[right];
+        int low = left - 1;
+        for (int i = left; i <= right - 1; i++) {
+            if (arr[i] <= pivot) {
+                low++;
+                swap(arr, i, low);
+            }
+        }
+        swap(arr, right, low + 1);
+        return low + 1;
+    }
+
+    public static void swap(int[] arr, int i, int low) {
+        int temp;
+        temp = arr[i];
+        arr[i] = arr[low];
+        arr[low] = temp;
     }
 
     public static int[] insertionSort(int[] arr) {
@@ -24,7 +55,6 @@ public class App {
         }
         return arr;
     }
-
 
     public static int[] mergeSort(int[] arr) {
         int n = arr.length;
@@ -46,9 +76,9 @@ public class App {
     }
 
     public static void marge(int[] left, int[] right, int[] arr) {
-        int i = 0;
-        int j = 0;
-        int k = 0;
+        int i = 0; // left
+        int j = 0; // right
+        int k = 0; // arr
         while (i < left.length && j < right.length) {
             if (left[i] <= right[j]) {
                 arr[k] = left[i];
@@ -70,5 +100,4 @@ public class App {
         }
     }
 }
-
 
