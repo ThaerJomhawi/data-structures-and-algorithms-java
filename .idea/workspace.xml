@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="939ebf56-ffec-4920-a0a8-1df25caa5fae" name="Changes" comment="" />
+    <list default="true" id="939ebf56-ffec-4920-a0a8-1df25caa5fae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hashtable/app/src/main/java/hashtable/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashtable/tree-intersection.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashtable/app/src/main/java/hashtable/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashtable/app/src/main/java/hashtable/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashtable/app/src/main/java/hashtable/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashtable/app/src/main/java/hashtable/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashtable/app/src/main/java/hashtable/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashtable/app/src/main/java/hashtable/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashtable/app/src/main/java/hashtable/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashtable/app/src/main/java/hashtable/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashtable/app/src/test/java/hashtable/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashtable/app/src/test/java/hashtable/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashtable/hashtable.md" beforeDir="false" afterPath="$PROJECT_DIR$/hashtable/hashtable.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,11 +21,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1zNNvequ2NU5xJRABlG82bDYhzW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
@@ -30,5 +44,19 @@
       <updated>1633984821470</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
