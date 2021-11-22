@@ -14,7 +14,7 @@ public class App {
         HashTable myTable = new HashTable();
 
 
-        System.out.println(repeatedWord("\"dont leave your bag all time ...\""));
+        System.out.println(repeatedWord("\"Once upon a time, there was a brave princess who...\""));
     }
 
     public static String repeatedWord(String sentence) {
