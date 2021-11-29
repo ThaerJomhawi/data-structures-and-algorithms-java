@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="939ebf56-ffec-4920-a0a8-1df25caa5fae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/graph/app/src/main/java/graph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/app/src/main/java/graph/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/app/src/main/java/graph/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/graph-breadth-first.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/app/src/main/java/graph/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph/app/src/main/java/graph/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/app/src/main/java/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph/app/src/main/java/graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/app/src/main/java/graph/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph/app/src/main/java/graph/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/app/src/test/java/graph/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph/app/src/test/java/graph/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/graph.md" beforeDir="false" afterPath="$PROJECT_DIR$/graph/graph.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
