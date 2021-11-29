@@ -64,7 +64,6 @@ Space : O(N)
 
 
 
-
 # tree intersection
 
 ## Challenge Summary
@@ -84,3 +83,4 @@ Find all values found to be in 2 binary trees
 **Time Approach** : O(N) - for loop 2 separate times.
 
 **Space Approach** : O(N) - create hash map and arrayList.
+
