@@ -61,3 +61,26 @@ lopp:
 Time Approach : O(N)
 
 Space : O(N)
+
+
+
+
+# tree intersection
+
+## Challenge Summary
+
+Find all values found to be in 2 binary trees
+
+- Write a function called tree intersection
+- Arguments: two binary trees
+- Return: array
+
+## Whiteboard Process
+
+![repeated-word](./tree-intersection.png)
+
+## Approach & Efficiency
+
+**Time Approach** : O(N) - for loop 2 separate times.
+
+**Space Approach** : O(N) - create hash map and arrayList.
