@@ -1,25 +1,18 @@
 package graph;
 
-import java.util.Objects;
+public class Stack<T> {
 
-public class Queue<T> {
+    Node<T> top;
 
-    Node<T> front;
-    Node<T> rear;
-
-    public void enqueue(Node<T> node){
-        if (front == null){
-            front = node;
-        } else {
-            rear.next = node;
-        }
-        rear = node;
+    public void push(Node<T> node){
+        node.next = top;
+        top = node;
     }
 
-    public Node<T> dequeue() {
+    public Node<T> pop() {
         try {
-            Node<T> temp = front;
-            front = front.next;
+            Node<T> temp = top;
+            top = top.next;
             temp.next = null;
             return temp;
         } catch (NullPointerException e) {
@@ -30,15 +23,15 @@ public class Queue<T> {
     }
 
     public boolean isEmpty(){
-        if (front == null) return true;
+        if (top == null) return true;
         return false;
     }
 
     @Override
     public String toString() {
-        if (front == null) return "null";
-        String outList = "Front = ";
-        Node<T> current = front;
+        if (top == null) return "null";
+        String outList = "Top = ";
+        Node<T> current = top;
         while (current != null){
             outList += current.value+ " -> ";
             current = current.next;
